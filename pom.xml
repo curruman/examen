@@ -12,7 +12,15 @@
 
     <groupId>ar.com.plug</groupId>
     <artifactId>examen</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1</version>
+    <modules>
+        <module>library</module>
+        <module>services/plug-exam-product-service</module>
+        <module>services/plug-exam-communication-service</module>
+        <module>services/plug-exam-sales-service</module>
+        <module>services/plug-exam-shopping-service</module>
+    </modules>
 
     <name>examen</name>
     <url>https://github.com/FlexibilitySRL/examen</url>
@@ -87,6 +95,22 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.0.Final</version>
         </dependency>
     </dependencies>
 
