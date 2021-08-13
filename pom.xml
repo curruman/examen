@@ -19,7 +19,7 @@
         <module>services/plug-exam-product-service</module>
         <module>services/plug-exam-communication-service</module>
         <module>services/plug-exam-sales-service</module>
-        <module>services/plug-exam-shop-service</module>
+        <module>services/plug-exam-shopping-service</module>
     </modules>
 
     <name>examen</name>
@@ -119,9 +119,7 @@
             <plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <!--artifactId>maven-jar-plugin</artifactId-->
-                    <artifactId>maven-site-plugin</artifactId>
-                    <version>3.7.1</version>
+                    <artifactId>maven-jar-plugin</artifactId>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -131,6 +129,5 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-
     </build>
 </project>
