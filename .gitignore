@@ -1,19 +1,12 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+#deploy
+target
 
-# Ignore Gradle build output directory
-build
+# IntelliJ
+/out/
 
-/.gradle/
-/.settings/
-**/bin/**
-**/out/**
-/.classpath
-/.project
-**/.idea/**
-**/*.iml
-/.vscode/settings.json
-**/.metadata/**
-*.log
-**/.settings/**
-**/.settings
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Mac
+.DS_Store
