@@ -1,0 +1,9 @@
+ar\com\plug\dto\Sale_.class
+ar\com\plug\dto\Product.class
+ar\com\plug\dto\Customer_.class
+ar\com\plug\dto\Customer.class
+ar\com\plug\dto\Product_.class
+ar\com\plug\dto\Sale.class
+ar\com\plug\object\StatusTransaction.class
+ar\com\plug\dto\Seller.class
+ar\com\plug\dto\Seller_.class
